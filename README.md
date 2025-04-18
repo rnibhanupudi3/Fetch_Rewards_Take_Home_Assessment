@@ -12,9 +12,9 @@ This project uses `pip` for dependency management.  To set up your environment u
 
 2.  **Create a virtual environment (recommended):**
     ```bash
-    python -m venv venv
+    python -m venv <env_name>
     ```
-    This creates a virtual environment named "venv".  You can choose a different name if you prefer.
+    Replace `env_name` with a name for your virtual Python environment.
 
 3.  **Activate the virtual environment:**
     * **On Windows:**
@@ -48,7 +48,7 @@ For those using the Conda package manager, an `environment.yml` file is provided
     ```bash
     conda activate <env_name>
     ```
-    Replace `<env_name>` with the actual name of the environment (`new_env`).
+    Replace `<env_name>` with the actual name of the environment (`new_env` by default).
 
 ## Project Structure
 
